@@ -1,0 +1,9 @@
+FROM postgres:latest
+
+ENV POSTGRES_PASSWORD=test
+
+ENV POSTGRES_USER=postgres
+
+ENV POSTGRES_DB=db_neoway_ps
+
+EXPOSE 3001

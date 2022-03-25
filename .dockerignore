@@ -1,0 +1,11 @@
+#Ignore the logs directory
+logs/
+
+#Ignoring git and cache folders
+.git
+.cache
+./app/__pycache__
+
+#Ignoring all the markdown and class files
+*.md
+**/*.class
