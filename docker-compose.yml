@@ -10,6 +10,5 @@ services:
   py-app:
     build: ./app/
     container_name: py-container
-    restart: always
     ports:
       - "9001:9001"
